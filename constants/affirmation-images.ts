@@ -1,65 +1,88 @@
-import californiaBackyardOne from "@/assets/affirmation-images/California-backyard-1.webp";
-import californiaBackyardTwo from "@/assets/affirmation-images/California-backyard-2.webp";
-import californiaBackyardThree from "@/assets/affirmation-images/California-backyard-3.webp";
-import californiaBackyardFour from "@/assets/affirmation-images/California-backyard-4.webp";
-
-import englishCountrysideOne from "@/assets/affirmation-images/english-countryside-1.webp";
-import englishCountrysideTwo from "@/assets/affirmation-images/english-countryside-2.webp";
-import englishCountrysideThree from "@/assets/affirmation-images/english-countryside-3.webp";
-import englishCountrysideFour from "@/assets/affirmation-images/english-countryside-4.webp";
-
-import mountainMeditateOne from "@/assets/affirmation-images/mountain-meditate-1.webp";
-import mountainMeditateTwo from "@/assets/affirmation-images/mountain-meditate-2.webp";
-import mountainMeditateThree from "@/assets/affirmation-images/mountain-meditate-3.webp";
-import mountainMeditateFour from "@/assets/affirmation-images/mountain-meditate-4.webp";
-
-import nightSkyOne from "@/assets/affirmation-images/night-sky-1.webp";
-import nightSkyTwo from "@/assets/affirmation-images/night-sky-2.webp";
-import nightSkyThree from "@/assets/affirmation-images/night-sky-3.webp";
-import nightSkyFour from "@/assets/affirmation-images/night-sky-4.webp";
-
-import oregonOne from "@/assets/affirmation-images/oregon-1.webp";
-import oregonTwo from "@/assets/affirmation-images/oregon-2.webp";
-import oregonThree from "@/assets/affirmation-images/oregon-3.webp";
-import oregonFour from "@/assets/affirmation-images/oregon-4.webp";
-
-import relaxingRiverOne from "@/assets/affirmation-images/relaxing-river-1.webp";
-import relaxingRiverTwo from "@/assets/affirmation-images/relaxing-river-2.webp";
-import relaxingRiverThree from "@/assets/affirmation-images/relaxing-river-3.webp";
-import relaxingRiverFour from "@/assets/affirmation-images/relaxing-river-4.webp";
-
-import tuscannyOne from "@/assets/affirmation-images/Tuscanny-1.webp";
-import tuscannyTwo from "@/assets/affirmation-images/Tuscanny-2.webp";
-import tuscannyThree from "@/assets/affirmation-images/Tuscanny-3.webp";
-import tuscannyFour from "@/assets/affirmation-images/Tuscanny-4.webp";
-
-export default {
-  californiaBackyardOne,
-  californiaBackyardTwo,
-  californiaBackyardThree,
-  californiaBackyardFour,
-  englishCountrysideOne,
-  englishCountrysideTwo,
-  englishCountrysideThree,
-  englishCountrysideFour,
-  mountainMeditateOne,
-  mountainMeditateTwo,
-  mountainMeditateThree,
-  mountainMeditateFour,
-  nightSkyOne,
-  nightSkyTwo,
-  nightSkyThree,
-  nightSkyFour,
-  oregonOne,
-  oregonTwo,
-  oregonThree,
-  oregonFour,
-  relaxingRiverOne,
-  relaxingRiverTwo,
-  relaxingRiverThree,
-  relaxingRiverFour,
-  tuscannyOne,
-  tuscannyTwo,
-  tuscannyThree,
-  tuscannyFour,
+const AFFIRMATION_IMAGES = {
+  californiaBackyardOne: {
+    uri: "https://drive.google.com/uc?id=1Z0N-O9DCxzP939iXwpH_XN9DMKMVnEFX",
+  },
+  californiaBackyardTwo: {
+    uri: "https://drive.google.com/uc?id=1WXOdB6kZ7FAy4AVGVKzSShHVD4WEsIGa",
+  },
+  californiaBackyardThree: {
+    uri: "https://drive.google.com/uc?id=1D8QHY1YLO-MOgJUCQru9KLBjPo_XkeAv",
+  },
+  californiaBackyardFour: {
+    uri: "https://drive.google.com/uc?id=1-oGDCrte5RUTDI8BVpe-spIrNQTmkdm-",
+  },
+  englishCountrysideOne: {
+    uri: "https://drive.google.com/uc?id=1ri69ZtTKzX41JxUMc_lCowYz6UapA0X5",
+  },
+  englishCountrysideTwo: {
+    uri: "https://drive.google.com/uc?id=1J-IJHWVLhzionpNFlAz5U61t2mn5ZBdB",
+  },
+  englishCountrysideThree: {
+    uri: "https://drive.google.com/uc?id=1PdM9wEMiPRH20WPosITe0KqXEwzQ4Xkk",
+  },
+  englishCountrysideFour: {
+    uri: "https://drive.google.com/uc?id=1PRQsVPsQ5ub5DiaNmCb4FbGbDRuXz86Y",
+  },
+  mountainMeditateOne: {
+    uri: "https://drive.google.com/uc?id=11IP9M2hj17BqBR48JscJKH_1rpMhUhgi",
+  },
+  mountainMeditateTwo: {
+    uri: "https://drive.google.com/uc?id=1xpYAZFaTjGUbtdOQq9EVz15p9gwPA11p",
+  },
+  mountainMeditateThree: {
+    uri: "https://drive.google.com/uc?id=1klSuVsl_U9Y4tnKWS4BZDsIs3YC4li-r",
+  },
+  mountainMeditateFour: {
+    uri: "https://drive.google.com/uc?id=1nzZiJjVSe9_zKqCnEsHxezHzGMHb7RKh",
+  },
+  nightSkyOne: {
+    uri: "https://drive.google.com/uc?id=1wTJrClYwMANRjVQQgbVhNgMq9GO2f6kF",
+  },
+  nightSkyTwo: {
+    uri: "https://drive.google.com/uc?id=1Ikd9tczibOsVso5nTXEGuE1z8Bq-24wG",
+  },
+  nightSkyThree: {
+    uri: "https://drive.google.com/uc?id=1Qgq60sWfjuykdv38PYhk6BWI_gwN7PBb",
+  },
+  nightSkyFour: {
+    uri: "https://drive.google.com/uc?id=1v2hMkfZUH8c3xS3tL3O_tPfBlZRddRds",
+  },
+  oregonOne: {
+    uri: "https://drive.google.com/uc?id=1AIR16XlK17dv0YpmaqwUjGo5QXFaOUeX",
+  },
+  oregonTwo: {
+    uri: "https://drive.google.com/uc?id=1KmFqFQFFqZ6rbYiW1BA7stWX7aqpqS-a",
+  },
+  oregonThree: {
+    uri: "https://drive.google.com/uc?id=1rG6-caR4mj1dxCfYQfBlRm9yMlFvoL3c",
+  },
+  oregonFour: {
+    uri: "https://drive.google.com/uc?id=1uDX15Wp30fQfZLxgsYJcP_6-1EzCas0w",
+  },
+  relaxingRiverOne: {
+    uri: "https://drive.google.com/uc?id=1Wh_HX7fflgQkDe21GCLA2PloGffvQdkb",
+  },
+  relaxingRiverTwo: {
+    uri: "https://drive.google.com/uc?id=1W_iKKf6td1vj5erCiI6wp31SPi3Uyuvw",
+  },
+  relaxingRiverThree: {
+    uri: "https://drive.google.com/uc?id=1Js4dE3glDgmgiptgtJxGX_Mp62vbLz9O",
+  },
+  relaxingRiverFour: {
+    uri: "https://drive.google.com/uc?id=1gyhqaiMc4cxnPo_USUelDaGnRpf5HnBD",
+  },
+  tuscannyOne: {
+    uri: "https://drive.google.com/uc?id=1OuAOtQcUPMZBkgF7hrQLtzEqBKs2mH-S",
+  },
+  tuscannyTwo: {
+    uri: "https://drive.google.com/uc?id=16WfH-_8XXJtlGRqiSCFdzT4HCWaNgDkz",
+  },
+  tuscannyThree: {
+    uri: "https://drive.google.com/uc?id=1AUAYQVk7Rtfs_4BTHaJYhAf9LxpndMIK",
+  },
+  tuscannyFour: {
+    uri: "https://drive.google.com/uc?id=1RUocu8FK9ODIswg3jbpgHOQR4f_A9ZWR",
+  },
 };
+
+export default AFFIRMATION_IMAGES;
